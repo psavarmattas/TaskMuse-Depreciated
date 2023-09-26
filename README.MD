@@ -1,5 +1,7 @@
 # TaskMuse: Android Task Management Application (PRE-RELEASE)
 
+[![Android CI](https://github.com/psavarmattas/TaskMuse/actions/workflows/android.yml/badge.svg)](https://github.com/psavarmattas/TaskMuse/actions/workflows/android.yml)
+
 ## Overview
 
 TaskMuse is an Android application designed to facilitate efficient task management for software development projects. It provides software developers and project managers with a user-friendly platform to create, organize, and track tasks, ensuring smoother project workflows and enhanced collaboration within development teams.
