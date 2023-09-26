@@ -21,7 +21,7 @@ jobs:
         cache: gradle
 
     - name: Set up Gradle
-      uses: gradle/wrapper-action@v2
+      uses: gradle/gradle-build-action@v2
       with:
         gradle-version: '8.1.1'
 
