@@ -52,7 +52,7 @@ TaskMuse offers a range of features tailored to the needs of software developers
 
 ## License
 
-Please see the [LICENSE](LICENSE) file for details.
+Please see the [LICENSE](https://github.com/psavarmattas/TaskMuse/blob/main/LICENSE) file for details.
 
 ## Contact
 
