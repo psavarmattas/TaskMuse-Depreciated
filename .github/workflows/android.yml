@@ -22,6 +22,7 @@ jobs:
 
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
+    - name: Gradle version
+      run: ../gradlew wrapper --gradle-version=8.1.1 
     - name: Build with Gradle
-      run: ../gradlew wrapper --gradle-version=8.1.1
-         ./gradlew build
+      run: ./gradlew build
