@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - name: Copy google-services.json
+    - name: Create google-services.json
       run:
           # mkdir -p app/src/google-services.json
           echo "${{ secrets.FIREBASE_JSON }}" >> app/src/google-services.json
