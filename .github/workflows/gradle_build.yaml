@@ -15,11 +15,16 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Create google-services.json
-      uses: cschleiden/replace-tokens@v1
+      uses: jsdaniell/create-json@v1.2.2
       with:
-          files: 'app/src/google-services.json'
-      env:
-          SECRET_TOKEN: ${{ secrets.FIREBASE_JSON }}
+          name: "app/src/google-services.json"
+          json: ${{ secrets.FIREBASE_JSON }}
+          
+      # uses: cschleiden/replace-tokens@v1
+      # with:
+      #     files: 'app/src/google-services.json'
+      # env:
+      #     SECRET_TOKEN: ${{ secrets.FIREBASE_JSON }}
 
     - name: set up JDK 17
       uses: actions/setup-java@v3
