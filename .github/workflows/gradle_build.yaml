@@ -21,12 +21,6 @@ jobs:
       env:
           SECRET_TOKEN: ${{ secrets.FIREBASE_JSON }}
 
-
-    # - name: Create google-services.json
-    #   run:
-    #       # mkdir -p app/src/google-services.json
-    #       jq "${{ secrets.FIREBASE_JSON }}" app/src/google-services.json
-
     - name: set up JDK 17
       uses: actions/setup-java@v3
       with:
