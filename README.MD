@@ -32,7 +32,7 @@ TaskMuse offers a range of features tailored to the needs of software developers
 
 ## Installation (PRE-RELEASE)
 
-1. Go to the Releases tab and download the latest release or just [click here]()!
+1. Go to the Releases tab and download the latest release or just [click here](https://github.com/psavarmattas/TaskMuse/releases)!
 
 2. Install the APK on your Android device.
 
